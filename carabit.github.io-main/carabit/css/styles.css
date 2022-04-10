@@ -1,0 +1,308 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+p {
+  color: #8f8f8f;
+}
+::-moz-selection { /* Code for Firefox */
+  color: GREEN;
+  background: yellow;
+}
+
+::selection {
+  color: GREEN;
+  background: yellow;
+}
+table:hover{
+color: #719ECE;;
+background-color: white;
+}
+
+.a{
+  margin-top: 20px;
+  background-color: pink;
+  margin:0;
+  height:100%;
+  width:100%;
+  border-radius: 1rem;
+  position: relative;
+  border-style: dotted;
+  box-shadow: pink;
+}
+
+.b{  margin-top: 20px;
+  border-radius: 1rem;
+  background-color: #351f39;
+    box-shadow: 0 1px 1.5rem #351f39;
+  height:80%;
+  width:75%;
+  font-family: 'Acme', sans-serif;
+font-family: 'Potta One', cursive;
+
+
+
+}
+.q{
+  font-size:1.5rem;
+margin-left: 5rem;
+color:#09015f;
+border-color: #ff577f;
+background-color: #ff577f;
+align-items: center;
+}
+a{
+  border-radius: 100%;
+}
+body{
+  background-color: #663f3f;
+}
+input{
+  font-family: 'Acme', sans-serif;
+font-family: 'Potta One', cursive;
+
+}
+.k{
+  border-radius: 1rem;
+  height:90%;
+  width:32%;
+  position: absolute;
+  left:60px;
+
+
+}img
+{border-radius: 1rem;
+  height:92%;
+  width:80%;
+  float:right;
+
+}
+/* h1{
+  font-size: 4vh;
+  color:#eb596e;
+  align-items: center;
+  margin-left: 40%;
+  font-family: 'Potta One', cursive;
+} */
+
+form.h1{
+  font-size: 4vh;
+  color:#FEB139;
+  align-items: center;
+  margin-left: 40%;
+  font-family: 'Potta One', cursive;
+}
+
+
+form{
+  align-items: right;
+margin-left: 40%;
+color:#FEB139;
+height:40%;
+width:70%;
+  border-radius: 1rem;
+background-color: #143F6B;
+  box-shadow: 0 1px 1.5rem #FEB139;
+}
+form:hover{
+  background-color:#143F6B;
+}
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color:#143F6B;
+  color: #FEB139;
+}
+
+.white-section {
+  background-color: #FEB139;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #143F6B;
+  color: #FEB139;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #143F6B;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #143F6B;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 40%;
+
+  margin: 20px;
+}
+
+
+#press {
+  background-color: black;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+.btn:hover{
+  background-color: #143F6B;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
